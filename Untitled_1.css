@@ -1,0 +1,148 @@
+﻿#container {
+	border-radius: 40px;
+	border-width: 10px;
+	background-color: #FFFFFF;
+	width: 1295px;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	background-image: none;
+}
+#top-nav ul {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	bottom: 200px;
+}
+#top-nav ul li {
+	display: inline;
+}
+#top-nav ul li a {
+	color: #FFFFFF;
+	background-color: #C0C0C0;
+	padding: .2em 1em .2em 1em;
+}
+#top-nav ul li a:hover {
+	border-style: 1;
+	color: #FFFFFF;
+	background-color: #CCFFCC;
+	border-width: 1px;
+	border-color: #99BF99;
+}
+body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-image: url('images/elegant_golden_irregular_organic_seamless_pattern (1).jpg');
+	background-repeat: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ffcc66;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 100px;
+    margin-top: 50px;
+    min-height: 500px;
+}
+    
+.culture-traditions-container {
+    display: flex;
+    gap: 40px;              
+    margin-left: 40px;       
+    margin-right: 40px;
+}
+
+.culture-box {
+    background-color: white;
+    width: 50%;              
+    padding: 30px;
+    border: 3px solid #ccc;
+    border-radius: 40px;   
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.traditions-box {
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border: 3px solid #ccc;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.box-img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;            
+    margin-bottom: 20px;            
+}
+
+.box-img {
+    width: 100%;        
+    height: auto;
+    border-radius: 50%;   
+    border: 3px solid #ccc;  
+}
+
+.box-link {
+    text-decoration: none;  
+    color: black;            
+}
+
+.box-link:hover {
+    color: #ff9900;        
+}
+
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.site-footer h2 {
+    margin-top: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.site-footer p {
+    margin: 8px 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
